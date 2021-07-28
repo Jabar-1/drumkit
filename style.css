@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    font-size: 120px;
+    color: cornflowerblue;
+    text-shadow: black;
+}
+
+.drum{
+    outline: none;
+    border: 10px solid rgb(134, 177, 255);
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color:darkblue;
+    text-shadow: 3px 0 white;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.a{
+ background: url("");
+}
+.s{
+ background: url("");
+}
+.d{
+ background: url("");
+}
+.f{
+ background: url("");
+}
+.z{
+ background: url("");
+}
+.x{
+ background: url("");
+}
+.c{
+ background: url("");
+}
+
+footer{
+    color: black;
+    font-family: sans-serif;
+}
+
+.set{
+    margin: 10% auto;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 white;
+    opacity: 0.6;
+}
+.red{
+    color: red;
+}
