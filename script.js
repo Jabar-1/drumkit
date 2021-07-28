@@ -1,12 +1,10 @@
 let numberOfDrumButtons=document.querySelectorAll(".drum").length;
 
-for (let i=0 ; i<numberOfDrumButtons; i++){
-    document.querySelectorAll(".drum")[i].
-    addEventListener("click", function(){
-        let buttonInnerHtml = this.innerHtml;
-
-        makeSound(buttonInnerHtml);
-        buttonAnimation(buttonInnerHtml);
+for (let i=0; i < numberOfDrumButtons; i++){
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+        let buttonInnerHTML = this.innerHTML;
+        makeSound(buttonInnerHTML);
+        buttonAnimation(buttonInnerHTML);
     });
 }
 
